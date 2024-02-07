@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <h2>Login al Database</h2>
+    <form action="visualizza_dati.php" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br>
+
+        <!--
+        <h1>Filtraggio dati tablla pilota</h1>
+
+        <label for="filterNames">Filtra nome:</label>
+        <input type="text" id="filterNames" name="filterNames"><br>
+
+        <label for="filterLastNames">Filtra cognome:</label>
+        <input type="text" id="filterLastNames" name="filterLastNames"><br>
+
+        <label for="filterPoints">Filtra punteggio:</label>
+        <input type="number" id="filterPoints" name="filterPoints" min="0"><br>
+        -->
+
+        <input type="submit" value="Login">
+    </form>
+</body>
+</html>
